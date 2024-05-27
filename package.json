@@ -1,6 +1,6 @@
 {
   "name": "eddys-frontend",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,7 @@
     "build:github": "npm run clean:docs && npm run build:href && npm run copy:dist",
     "build:href": "ng build --base-href=./",
     "clean:docs": "rimraf docs",
-    "copy:dist": "copyfiles dist/browser/* ./docs -f"
+    "copy:dist": "copyfiles -u 1 dist/browser/** ./docs"
   },
   "private": true,
   "dependencies": {
