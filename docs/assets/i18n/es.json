@@ -8,5 +8,11 @@
   "products.i02": "Dulces artesanales mexicanos",
   "products.i03": "Especias y chiles",
   "contact":  "Contacto",
+  "contact.name": "Nombre",
+  "contact.email": "Correo",
+  "contact.phone": "Teléfono",
+  "contact.subject": "Asunto",
+  "contact.message": "Mensaje",
+  "send": "Enviar",
   "location": "Ubicación"
 }
