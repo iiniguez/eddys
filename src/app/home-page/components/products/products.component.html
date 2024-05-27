@@ -1,0 +1,16 @@
+<div class="row products m-4" id="products" >
+  <div class="col-12">
+    <h1 class="text-center text-sub m-4">{{ 'products' | translate }}</h1>
+  </div>
+
+  <div class="mt-4 mb-4 d-flex justify-content-evenly flex-wrap">
+    <div class="p-2 flex-fill col-md-6 col-lg-4" *ngFor="let product of productCards; index as i">
+      <div class="card custom-card">
+        <img src="{{ product.image }}" class="rounded-circle mb-3 card-image-top" style="width: 90%; margin: auto;" alt="" />
+        <div class="card-body">
+          <p class="card-text text-center bg-sub">{{ product.text | translate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
