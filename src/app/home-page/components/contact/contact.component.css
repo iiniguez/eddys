@@ -1,0 +1,53 @@
+.contact-section {
+  min-height: 60vh;
+}
+
+.app-contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 25px;
+}
+
+.informacion {
+  background-image: url("../../../../assets/images/bg-contacto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: right;
+  background-color: #e9ecef;
+  padding: 20px;
+  height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-text {
+  font-size: 3vw;
+  align-self: flex-end;
+}
+
+.bottom-text {
+  font-size: 3vw;
+  align-self: flex-end;
+}
+
+@media (max-width: 720px) {
+  .informacion {
+
+  }
+
+  .top-text {
+    font-size: 1.4rem;
+    align-self: flex-end;
+  }
+
+  .bottom-text {
+    font-size: 1.4rem;
+    align-self: flex-end;
+  }
+}

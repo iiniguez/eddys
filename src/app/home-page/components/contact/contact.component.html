@@ -1,0 +1,22 @@
+<div class="container-fluid" id="contact">
+  <div class="row contact-section">
+    <div class="col-md-6 col-sm-12">
+      <app-contact-form></app-contact-form>
+    </div>
+    <div class="col-md-6 col-sm-12 informacion">
+      <div class="top-text p-2">
+        <h1 style="font-size: 8vw;">{{ 'contact' | translate }}</h1>
+        <p>
+          <a href="mailto:{{ informacion.email }}" style="color: white;">{{ informacion.email }}</a>
+        </p>
+      </div>
+      <div class="bottom-text p-2">
+        <h1 style="font-size: 8vw;">{{ 'location' | translate }}</h1>
+        <p>
+          {{ informacion.address }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>

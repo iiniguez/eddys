@@ -3,7 +3,7 @@ import { TranslateService } from "@ngx-translate/core";
 import { first } from "rxjs";
 
 @Component({
-  selector: 'products',
+  selector: 'product-section',
   templateUrl: './products.component.html',
   styleUrl: './products.component.css'
 })

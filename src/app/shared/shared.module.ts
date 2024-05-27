@@ -6,6 +6,9 @@ import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
 import { ShreddedPaperComponent } from './shredded-paper/shredded-paper.component';
 import { LanguageSelectorComponent } from './language-selector/language-selector.component';
 import { TranslateModule } from "@ngx-translate/core";
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FormsModule } from "@angular/forms";
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -15,15 +18,20 @@ import { TranslateModule } from "@ngx-translate/core";
     BrandBarComponent,
     NavbarMenuComponent,
     ShreddedPaperComponent,
-    LanguageSelectorComponent
+    LanguageSelectorComponent,
+    ContactFormComponent,
+    FooterComponent
   ],
   exports: [
     HeaderComponent,
-    LanguageSelectorComponent
+    LanguageSelectorComponent,
+    ContactFormComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
-    TranslateModule
+    TranslateModule,
+    FormsModule
   ]
 })
 export class SharedModule { }

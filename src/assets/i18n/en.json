@@ -8,5 +8,11 @@
   "products.i02": "Traditional Mexican candies.",
   "products.i03": "Spices and chiles",
   "contact":  "Contact",
+  "contact.name": "Name",
+  "contact.email": "e-mail",
+  "contact.phone": "Phone",
+  "contact.subject": "Subject",
+  "contact.message": "Message",
+  "send": "Send",
   "location": "Location"
 }
