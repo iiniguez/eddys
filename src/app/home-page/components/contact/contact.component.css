@@ -1,13 +1,5 @@
 .contact-section {
-  min-height: 60vh;
-}
-
-.app-contact-form {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  padding: 25px;
 }
 
 .informacion {
@@ -19,7 +11,6 @@
   text-align: right;
   background-color: #e9ecef;
   padding: 20px;
-  height: 80vh;
 
   display: flex;
   flex-direction: column;
@@ -27,22 +18,18 @@
 }
 
 .top-text {
-  font-size: 3vw;
+  font-size: 1.6em;
   align-self: flex-end;
 }
 
 .bottom-text {
-  font-size: 3vw;
+  font-size: 1.6em;
   align-self: flex-end;
 }
 
 @media (max-width: 720px) {
-  .informacion {
-
-  }
-
   .top-text {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     align-self: flex-end;
   }
 
