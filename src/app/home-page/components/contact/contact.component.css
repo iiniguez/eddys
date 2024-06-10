@@ -1,0 +1,40 @@
+.contact-section {
+  display: flex;
+}
+
+.informacion {
+  background-image: url("../../../../assets/images/bg-contacto.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: right;
+  background-color: #e9ecef;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-text {
+  font-size: 1.6em;
+  align-self: flex-end;
+}
+
+.bottom-text {
+  font-size: 1.6em;
+  align-self: flex-end;
+}
+
+@media (max-width: 720px) {
+  .top-text {
+    font-size: 1.1rem;
+    align-self: flex-end;
+  }
+
+  .bottom-text {
+    font-size: 1.4rem;
+    align-self: flex-end;
+  }
+}

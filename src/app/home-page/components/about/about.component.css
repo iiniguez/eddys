@@ -1,0 +1,14 @@
+.about-section {
+  padding: 35px;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+img {
+  border-radius: 50px;
+  border: white 5px solid;
+  width: 100%;
+}

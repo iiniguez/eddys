@@ -1,0 +1,24 @@
+.video-section {
+  padding: 8vw;
+}
+
+.video-player {
+  width: 75%;
+  border-radius: 10px;
+}
+
+.video-section img {
+  width: 75%;
+}
+
+.rss-icon {
+  border-radius: 20px;
+  border: white 5px solid;
+  max-width: 80px;
+  width: 3%;
+  margin-right: 10px;
+}
+
+rss {
+  font-size: 1.6rem;
+}

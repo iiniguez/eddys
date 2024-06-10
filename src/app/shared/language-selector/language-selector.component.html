@@ -1,0 +1,9 @@
+<div class="floating-selector">
+  <div *ngIf="language === 'es'; else spanishButton">
+    <button class="btn btn-outline-grey m-1" (click)="useTranslate('en')"><span class="fi fi-us"></span></button>
+  </div>
+
+  <ng-template #spanishButton>
+    <button class="btn btn-outline-grey m-1" (click)="useTranslate('es')"><span class="fi fi-mx"></span></button>
+  </ng-template>
+</div>
