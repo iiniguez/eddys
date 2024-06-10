@@ -1,0 +1,31 @@
+.floating-image {
+  position: fixed;
+  top: -10px;
+  right: 0;
+  z-index: 1005;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.floating-image img {
+  width: 350px;
+  transform: rotate(15deg);
+}
+
+@media (max-width: 768px) {
+  .floating-image {
+    top: 0;
+    right: -10px;
+  }
+
+  .floating-image img {
+    width: 250px;
+    transform: rotate(35deg);
+  }
+}
+
+@media (max-width: 415px) {
+  .floating-image {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+<div style="padding: 15px;">
+  <div class="contact-form-container">
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+      <div class="form-group">
+        <label class="text-sub" for="name">{{ 'contact.name' | translate }} *</label>
+        <input type="text" id="name" name="name" ngModel required class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="text-sub" for="email">{{ 'contact.email' | translate }} *</label>
+        <input type="email" id="email" name="email" ngModel required class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="text-sub" for="phone">{{ 'contact.phone' | translate }}</label>
+        <input type="text" id="phone" name="phone" ngModel class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="text-sub" for="subject">{{ 'contact.subject' | translate }} *</label>
+        <input type="text" id="subject" name="subject" ngModel required class="form-control">
+      </div>
+      <div class="form-group">
+        <label class="text-sub" for="message">{{ 'contact.message' | translate }} *</label>
+        <textarea id="message" name="message" ngModel required class="form-control"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!contactForm.valid">{{ 'send' | translate}}</button>
+    </form>
+  </div>
+</div>
