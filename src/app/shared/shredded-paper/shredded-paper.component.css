@@ -29,3 +29,14 @@
     display: none;
   }
 }
+
+@media screen and (min-width: 1921px) and (orientation: landscape) {
+  .floating-image {
+    right: 11.9vw;
+
+    & img {
+      width: 22vw !important;
+      transform: rotate(18deg);
+    }
+  }
+}
