@@ -1,6 +1,6 @@
 .floating-selector {
   position: fixed;
-  top: 5px;
+  top: 1px;
   right: 15px;
   color: white;
   padding: 1px 1px !important;
@@ -14,7 +14,6 @@
 
 @media screen and (min-width: 1921px) and (orientation: landscape) {
   .floating-selector {
-    top: 1px;
     right: 12vw;
   }
 }
