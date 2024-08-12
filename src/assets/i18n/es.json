@@ -2,7 +2,7 @@
   "welcome": "Bienvenido",
   "welcomeMessage": "Esta es una aplicación bilingüe.",
   "about":  "Nosotros",
-  "about.text": "Somos una tienda cash & carry es un vibrante escaparate de la cultura mexicana, ofreciendo artesanías hechas a mano, dulces tradicionales, juguetes típicos y especias exóticas. Cada visita es un viaje a través de la rica herencia de México, permitiendo a los clientes disfrutar de productos auténticos y de alta calidad.",
+  "about.text": "En nuestra Bodega \"El Zarape Imports\", celebramos la rica cultura mexicana ofreciendo una amplia variedad de productos auténticos. Encontrarás coloridas artesanías hechas a mano, dulces tradicionales, juguetes típicos y especias exóticas, todo en un solo lugar. Cada visita es un viaje a través de la herencia de México, brindándote productos de alta calidad que capturan la esencia de nuestras tradiciones. Ven y descubre lo mejor de México en nuestra tienda.",
   "products": "Productos",
   "products.i01": "Artesanía mexicana, decoración, utensilios de cocina, juguetes y más.",
   "products.i02": "Dulces artesanales mexicanos",
@@ -14,5 +14,6 @@
   "contact.subject": "Asunto",
   "contact.message": "Mensaje",
   "send": "Enviar",
-  "location": "Ubicación"
+  "location": "Ubicación",
+  "store": "Tienda"
 }

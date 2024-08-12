@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class ContactComponent {
   informacion = {
-    "email": 'sales@eddyscashandcarry.com',
+    "email": 'hola@elzarapeimports.com',
     "address": '1216 E 27th St, Houston, TX 77009, Estados Unidos',
   }
 }

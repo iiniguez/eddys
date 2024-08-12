@@ -2,7 +2,7 @@
   "welcome": "Welcome",
   "welcomeMessage": "This is a bilingual application.",
   "about":  "About Us",
-  "about.text": "At our Cash & Carry Warehouse, we celebrate Mexico's rich culture by offering a wide variety of authentic products. You'll find colorful handmade crafts, traditional sweets, traditional toys and exotic spices all in one place. Each visit is a journey through Mexico's heritage, offering you high quality products that capture the essence of our traditions. Come and discover the best of Mexico in our store.",
+  "about.text": "At \"El Zarape Imports\", we celebrate Mexico's rich culture by offering a wide variety of authentic products. You'll find colorful handmade crafts, traditional sweets, traditional toys and exotic spices all in one place. Each visit is a journey through Mexico's heritage, offering you high quality products that capture the essence of our traditions. Come and discover the best of Mexico in our store.",
   "products": "Products",
   "products.i01": "Mexican handicrafts, decoration, kitchen utensils, toys and more.",
   "products.i02": "Traditional Mexican candies.",
@@ -14,5 +14,6 @@
   "contact.subject": "Subject",
   "contact.message": "Message",
   "send": "Send",
-  "location": "Location"
+  "location": "Location",
+  "store": "Store"
 }

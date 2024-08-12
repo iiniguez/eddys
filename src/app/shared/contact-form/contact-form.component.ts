@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ContactFormComponent {
   onSubmit(form: any) {
     const { name, subject, email, phone, message } = form.value;
-    const mailtoLink = `mailto:sales@eddyscashandcarry.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Nombre: ' + name + '\nTeléfono: ' + phone + '\nCorreo: ' + email + '\n\n' + message)}`;
+    const mailtoLink = `mailto:hola@elzarapeimports.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent('Nombre: ' + name + '\nTeléfono: ' + phone + '\nCorreo: ' + email + '\n\n' + message)}`;
 
     window.location.href = mailtoLink;
   }
